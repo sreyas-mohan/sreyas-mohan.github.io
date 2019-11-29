@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Sreyas Mohan"
   avatar           : "bio-photo.jpg"
-  bio              : "PhD Candiate"
-  location         : "New York, New York"
+  bio              : "PhD Candidate"
+  location         : 
   employer         : "New York University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=jaobZDsAAAAJ&hl=en&oi=ao"
-  email            :
+  email            : sm7582@nyu.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

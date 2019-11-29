@@ -14,8 +14,8 @@ Previously, I obtained my B.Tech in Electrical Engineering from [Indian Institut
 
 Publications
 -----
-+ **Robust and Interpretable Blind Image Denoising via Bias-free Convolutional Neural Networks. ** <br/>
-**Sreyas Mohan <sup>\*</sup>**, Zahra Kadkhodaie <sup>\*</sup>, Eero Simoncelli, Carlos Fernandez-Granda <br/>
++ **Robust and Interpretable Blind Image Denoising via Bias-free Convolutional Neural Networks.** <br/>
+**Sreyas Mohan<sup>\*</sup>**, Zahra Kadkhodaie<sup>\*</sup>, Eero Simoncelli, Carlos Fernandez-Granda <br/>
 *Solving Inverse Problems with Deep Networks Workshop, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019* <br/>
 [ [Paper](https://openreview.net/forum?id=HJlSmC4FPS)]
 + **Data-driven Estimation of Sinusoid Frequencies.** <br/>
@@ -23,9 +23,9 @@ Gautier Izacard, **Sreyas Mohan**, Carlos Fernandez-Granda <br/>
 *Proc. 33rd Conference on Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019*  <br/>
 [ [Paper](https://papers.nips.cc/paper/8756-data-driven-estimation-of-sinusoid-frequencies) ] [ [Webiste](https://sreyas-mohan.github.io/DeepFreq/) ] [ [Code](https://github.com/sreyas-mohan/DeepFreq) ]
 + **Automatic Knee Segmentation using Diffusion Weighted MRI.** <br/>
-Alejandra Duarte <sup>\*</sup>, Chaitra Hegde <sup>\*</sup>, Aakash Kaku <sup>\*</sup>, **Sreyas Mohan <sup>\*</sup> **, Jose G Raya <br/>
+Alejandra Duarte <sup>\*</sup>, Chaitra Hegde <sup>\*</sup>, Aakash Kaku <sup>\*</sup>, **Sreyas Mohan<sup>\*</sup>**, Jose G Raya <br/>
 *Medical Imaging Meets NeurIPS, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019 (Extended Abstract)* <br/>
-[ [Extneded Abstract]()] [ [Code](https://github.com/aakashrkaku/knee-cartilage-segmentation) ]
+[ [Extended Abstract]()] [ [Code](https://github.com/aakashrkaku/knee-cartilage-segmentation) ]
 + **Data Driven Coded Aperture Design for Depth Recovery.** <br/>
 Prasan Shedligeri, **Sreyas Mohan**, Kaushik Mitra <br/>
 *IEEE International Conference on Image Processing (ICIP), Sep 2017, Beijing, China.*
@@ -37,15 +37,15 @@ Prasan Shedligeri, **Sreyas Mohan**, Kaushik Mitra <br/>
 Teaching
 ------
 
-### At NYU
+#### At NYU
 
-+   * [DS-GA 1013 Mathematical Tools for Data Science](https://cims.nyu.edu/~cfgranda/pages/MTDS_spring19/index.html) (Spring 2020) for Prof. Carlos Fernandez-Granda(http://www.cims.nyu.edu/~cfgranda)
++ * [DS-GA 1013 Mathematical Tools for Data Science](https://cims.nyu.edu/~cfgranda/pages/MTDS_spring19/index.html) * (Spring 2020) for Prof. Carlos Fernandez-Granda(http://www.cims.nyu.edu/~cfgranda)
 +   *DS-GA 1011 Natural Language Processing with Representation Learning* (Fall 2019) for [Prof. Kyunghyun Cho](http://www.kyunghyuncho.me) 
-+ *[DS-GA 1003 Machine Learning](https://davidrosenberg.github.io/ml2019/#home)* (Spring 2019) for [Prof. Julia Kempe](https://cims.nyu.edu/~kempe/) and Dr. David Rosenberg.
++ *[DS-GA 1003 Machine Learning](https://davidrosenberg.github.io/ml2019/#home)* (Spring 2019) for [Prof. Julia Kempe](https://cims.nyu.edu/~kempe/) and [Dr. David Rosenberg](https://www.linkedin.com/in/dr-david-rosenberg/).
 + *CSCI-GA.1170 Fundamental Algorithms* (Summer, Fall 2018) for Prof. Alexander Alekseyev
 
-### Elsewhere
+#### Elsewhere
 
- + **Kigali, Rwanda**: NLP with Deep Learning at the African Institute of Mathematical Sciences, Rwanda. (March 2019, 2020). 
+ + **Kigali, Rwanda**: NLP with Deep Learning at the [African Institute of Mathematical Sciences](https://aimsammi.org), Rwanda. (March 2019, 2020). 
  +  **IIT Madras, India**: *EE5177 Machine Learning for Computer Vision* (Spring 2017) for [Prof. Kaushik Mitra](http://www.ee.iitm.ac.in/kmitra/)
- +  \textbf{Chennai, India}: [IIT for Villages](http://www.ivil.iitm.ac.in) - Volunteered to teach Physics and Mathematics for Higher Secondary School students from underprivileged sections of the society (2013-2017)
+ + **Chennai, India**: [IIT for Villages](http://www.ivil.iitm.ac.in) - Volunteered to teach Physics and Mathematics for Higher Secondary School students from underprivileged sections of the society (2013-2017)
