@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Sreyas Mohan"
-  avatar           : "profile.png"
+  avatar           : "bio-photo.jpg"
   bio              : "PhD Candiate"
   location         : "New York, New York"
   employer         : "New York University"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "seyas-mohan"
+  github           : "sreyas-mohan"
   google_plus      :
   keybase          :
   instagram        :
