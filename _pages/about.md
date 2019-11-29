@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in [Center for Data Science](https://cds.nyu.edu/about/) at New York University where I am member of the [Laboratory for Computational Vision](https://www.cns.nyu.edu/~lcv/) and [Math and Data](http://mad.cds.nyu.edu). I am advised by [Prof. Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) and [Prof. Eero P Simoncelli](https://www.cns.nyu.edu/~eero/). I am broadly interested in computer vision, deep learning and signal processing.
+I am a Ph.D. student at the [Center for Data Science](https://cds.nyu.edu/about/) at **New York University**, advised by [Prof. Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) and [Prof. Eero P Simoncelli](https://www.cns.nyu.edu/~eero/). I affliated to the [Laboratory for Computational Vision](https://www.cns.nyu.edu/~lcv/) and [Math and Data](http://mad.cds.nyu.edu). I am broadly interested in computer vision, deep learning and signal processing.
 
-Previously, I obtained my B.Tech in Electrical Engineering from [Indian Institute of Technology Madras](https://www.iitm.ac.in), India in 2017, where my Bachelors thesis was supervised by [Prof. Kaushik Mitra](http://www.ee.iitm.ac.in/kmitra/). I interned at [IST Austria](https://ist.ac.at) mentored by [Dr. Gasper Tkacik](https://ist.ac.at/en/research/life-sciences/tkacik-group/) during the summer of 2017 and at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) mentored by [Dr. Dmitri Chklovskii](https://www.simonsfoundation.org/team/dmitri-mitya-chklovskii) and [Prof. Cengiz Pehlevan](https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan) during the summer of 2016. 
+Previously, I obtained my B.Tech in Electrical Engineering from [Indian Institute of Technology Madras](https://www.iitm.ac.in), India in 2017, where my bachelor's thesis was supervised by [Prof. Kaushik Mitra](http://www.ee.iitm.ac.in/kmitra/). I interned at [IST Austria](https://ist.ac.at) mentored by [Dr. Gasper Tkacik](https://ist.ac.at/en/research/life-sciences/tkacik-group/) during the summer of 2017 and at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) mentored by [Dr. Dmitri Chklovskii](https://www.simonsfoundation.org/team/dmitri-mitya-chklovskii) and [Prof. Cengiz Pehlevan](https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan) during the summer of 2016. Here's my [CV](http://sreyas-mohan.github.io/files/cv.pdf)
 
 Publications
 -----
@@ -37,15 +37,19 @@ Prasan Shedligeri, **Sreyas Mohan**, Kaushik Mitra <br/>
 Teaching
 ------
 
-#### At NYU
+### At NYU
 
-+ * [DS-GA 1013 Mathematical Tools for Data Science](https://cims.nyu.edu/~cfgranda/pages/MTDS_spring19/index.html) * (Spring 2020) for Prof. Carlos Fernandez-Granda(http://www.cims.nyu.edu/~cfgranda)
++ *[DS-GA 1013 Mathematical Tools for Data Science](https://cims.nyu.edu/~cfgranda/pages/MTDS_spring19/index.html)* (Spring 2020) for Prof. Carlos Fernandez-Granda(http://www.cims.nyu.edu/~cfgranda)
 +   *DS-GA 1011 Natural Language Processing with Representation Learning* (Fall 2019) for [Prof. Kyunghyun Cho](http://www.kyunghyuncho.me) 
 + *[DS-GA 1003 Machine Learning](https://davidrosenberg.github.io/ml2019/#home)* (Spring 2019) for [Prof. Julia Kempe](https://cims.nyu.edu/~kempe/) and [Dr. David Rosenberg](https://www.linkedin.com/in/dr-david-rosenberg/).
 + *CSCI-GA.1170 Fundamental Algorithms* (Summer, Fall 2018) for Prof. Alexander Alekseyev
 
-#### Elsewhere
+### Elsewhere
 
  + **Kigali, Rwanda**: NLP with Deep Learning at the [African Institute of Mathematical Sciences](https://aimsammi.org), Rwanda. (March 2019, 2020). 
  +  **IIT Madras, India**: *EE5177 Machine Learning for Computer Vision* (Spring 2017) for [Prof. Kaushik Mitra](http://www.ee.iitm.ac.in/kmitra/)
  + **Chennai, India**: [IIT for Villages](http://www.ivil.iitm.ac.in) - Volunteered to teach Physics and Mathematics for Higher Secondary School students from underprivileged sections of the society (2013-2017)
+
+Service
+------
++ Reviewer for [ICLR 2020](https://iclr.cc)
