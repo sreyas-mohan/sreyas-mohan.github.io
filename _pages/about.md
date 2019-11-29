@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the [Center for Data Science](https://cds.nyu.edu/about/) at **New York University**, advised by [Prof. Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) and [Prof. Eero P Simoncelli](https://www.cns.nyu.edu/~eero/). I am affliated to the [Laboratory for Computational Vision](https://www.cns.nyu.edu/~lcv/) and [Math and Data](http://mad.cds.nyu.edu). I am broadly interested in computer vision, deep learning and signal processing.
+I am a Ph.D. student at the [Center for Data Science](https://cds.nyu.edu/about/) at **New York University**, advised by [Prof. Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) and [Prof. Eero P Simoncelli](https://www.cns.nyu.edu/~eero/). I am a member of the [Laboratory for Computational Vision](https://www.cns.nyu.edu/~lcv/) and [Math and Data](http://mad.cds.nyu.edu). I am broadly interested in computer vision, deep learning and signal processing.
 
-Previously, I obtained my B.Tech in Electrical Engineering from [Indian Institute of Technology Madras](https://www.iitm.ac.in), India in 2017, where my bachelor's thesis was supervised by [Prof. Kaushik Mitra](http://www.ee.iitm.ac.in/kmitra/). I interned at [IST Austria](https://ist.ac.at) mentored by [Dr. Gasper Tkacik](https://ist.ac.at/en/research/life-sciences/tkacik-group/) during the summer of 2017 and at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) mentored by [Dr. Dmitri Chklovskii](https://www.simonsfoundation.org/team/dmitri-mitya-chklovskii) and [Prof. Cengiz Pehlevan](https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan) during the summer of 2016. Here's my [CV](http://sreyas-mohan.github.io/files/cv.pdf)
+Previously, I obtained my B.Tech in Electrical Engineering from [Indian Institute of Technology Madras](https://www.iitm.ac.in), where [Prof. Kaushik Mitra](http://www.ee.iitm.ac.in/kmitra/) supervised my bachelor's thesis. I interned at [IST Austria](https://ist.ac.at) mentored by [Dr. Gasper Tkacik](https://ist.ac.at/en/research/life-sciences/tkacik-group/) during the summer of 2017 and at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) mentored by [Dr. Dmitri Chklovskii](https://www.simonsfoundation.org/team/dmitri-mitya-chklovskii) and [Prof. Cengiz Pehlevan](https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan) during the summer of 2016. Here's my [CV](http://sreyas-mohan.github.io/files/cv.pdf)
 
 Publications
 -----
@@ -25,7 +25,7 @@ Gautier Izacard, **Sreyas Mohan**, Carlos Fernandez-Granda <br/>
 + **Automatic Knee Segmentation using Diffusion Weighted MRI.** <br/>
 Alejandra Duarte <sup>\*</sup>, Chaitra Hegde <sup>\*</sup>, Aakash Kaku <sup>\*</sup>, **Sreyas Mohan<sup>\*</sup>**, Jose G Raya <br/>
 *Medical Imaging Meets NeurIPS, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019 (Extended Abstract)* <br/>
-[ [Extended Abstract]()] [ [Code](https://github.com/aakashrkaku/knee-cartilage-segmentation) ]
+[ [Extended Abstract]() ] [ [Code](https://github.com/aakashrkaku/knee-cartilage-segmentation) ]
 + **Data Driven Coded Aperture Design for Depth Recovery.** <br/>
 Prasan Shedligeri, **Sreyas Mohan**, Kaushik Mitra <br/>
 *IEEE International Conference on Image Processing (ICIP), Sep 2017, Beijing, China.*
@@ -33,7 +33,7 @@ Prasan Shedligeri, **Sreyas Mohan**, Kaushik Mitra <br/>
 Cengiz Pehlevan, **Sreyas Mohan**, Dmitri B. Chklovskii <br/>
 *Neural computation, vol. 29, no. 11, pp. 2925–2954, 2017* <br/>
 *COSYNE, Salt Lake City, Utah, 2017 (Extended Abstract)* <br/>
-[ [Paper](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01007) ], [ [Extended Abstract](https://drive.google.com/file/d/0B_RuE5MyY_BPbTlLOFBqbWNUb00/view)], [ [Video Demo](https://drive.google.com/file/d/0B_RuE5MyY_BPeDN2dG1IY2EydFk/view) ]
+[ [Paper](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01007) ] [ [Extended Abstract](https://drive.google.com/file/d/0B_RuE5MyY_BPbTlLOFBqbWNUb00/view)] [ [Video Demo](https://drive.google.com/file/d/0B_RuE5MyY_BPeDN2dG1IY2EydFk/view) ]
 
 Teaching
 ------
