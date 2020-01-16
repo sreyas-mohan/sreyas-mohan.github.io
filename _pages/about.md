@@ -16,6 +16,7 @@ Publications
 -----
 + **Robust and Interpretable Blind Image Denoising via Bias-free Convolutional Neural Networks.** <br/>
 **Sreyas Mohan<sup>\*</sup>**, Zahra Kadkhodaie<sup>\*</sup>, Eero Simoncelli, Carlos Fernandez-Granda <br/>
+*Proc. International Conference on Learning Representations (ICLR), Addis Ababa (Ethiopia) 2020*
 *Solving Inverse Problems with Deep Networks Workshop, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019* <br/>
 [ [Paper](https://openreview.net/forum?id=HJlSmC4FPS)]
 + **Data-driven Estimation of Sinusoid Frequencies.** <br/>
