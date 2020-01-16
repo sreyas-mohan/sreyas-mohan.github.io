@@ -16,7 +16,7 @@ Publications
 -----
 + **Robust and Interpretable Blind Image Denoising via Bias-free Convolutional Neural Networks.** <br/>
 **Sreyas Mohan<sup>\*</sup>**, Zahra Kadkhodaie<sup>\*</sup>, Eero Simoncelli, Carlos Fernandez-Granda <br/>
-*Proc. International Conference on Learning Representations (ICLR), Addis Ababa (Ethiopia) 2020*
+*Proc. International Conference on Learning Representations (ICLR), 2020* <br/>
 *Solving Inverse Problems with Deep Networks Workshop, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019* <br/>
 [ [Paper](https://openreview.net/forum?id=HJlSmC4FPS)]
 + **Data-driven Estimation of Sinusoid Frequencies.** <br/>
@@ -26,10 +26,11 @@ Gautier Izacard, **Sreyas Mohan**, Carlos Fernandez-Granda <br/>
 + **Automatic Knee Segmentation using Diffusion Weighted MRI.** <br/>
 Alejandra Duarte <sup>\*</sup>, Chaitra Hegde <sup>\*</sup>, Aakash Kaku <sup>\*</sup>, **Sreyas Mohan<sup>\*</sup>**, Jose G Raya <br/>
 *Medical Imaging Meets NeurIPS, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019 (Extended Abstract)* <br/>
-[ [Extended Abstract]() ] [ [Code](https://github.com/aakashrkaku/knee-cartilage-segmentation) ]
+[ [Paper](https://arxiv.org/abs/1912.01838) ] [ [Code](https://github.com/aakashrkaku/knee-cartilage-segmentation) ]
 + **Data Driven Coded Aperture Design for Depth Recovery.** <br/>
 Prasan Shedligeri, **Sreyas Mohan**, Kaushik Mitra <br/>
-*IEEE International Conference on Image Processing (ICIP), Sep 2017, Beijing, China.*
+*IEEE International Conference on Image Processing (ICIP), Sep 2017, Beijing, China.* <br/>
+[ [Paper](https://arxiv.org/abs/1705.10021) ] [ [Website](http://www.ee.iitm.ac.in/comp_photolab/project-data-driven-coded-aperture-design.html) ]
 + **Blind Nonnegative Source Separation Using Biological Neural Networks.** <br/> 
 Cengiz Pehlevan, **Sreyas Mohan**, Dmitri B. Chklovskii <br/>
 *Neural computation, vol. 29, no. 11, pp. 2925–2954, 2017* <br/>
