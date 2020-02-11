@@ -14,11 +14,15 @@ Previously, I obtained my B.Tech in Electrical Engineering from [Indian Institut
 
 Publications
 -----
++ **Be Like Water: Robustness to Extraneous Variables Via Adaptive Feature Normalization.** <br/>
+ Aakash Kaku<sup>\*</sup>, **Sreyas Mohan<sup>\*</sup>**, Avinash Parnandi, Heidi Schambra, Carlos Fernandez-Granda <br/>
+*Under Review* <br/>
+[ [Paper](https://arxiv.org/abs/2002.04019)]
 + **Robust and Interpretable Blind Image Denoising via Bias-free Convolutional Neural Networks.** <br/>
 **Sreyas Mohan<sup>\*</sup>**, Zahra Kadkhodaie<sup>\*</sup>, Eero Simoncelli, Carlos Fernandez-Granda <br/>
 *Proc. International Conference on Learning Representations (ICLR), 2020* <br/>
 *Solving Inverse Problems with Deep Networks Workshop, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019* <br/>
-[ [Paper](https://openreview.net/forum?id=HJlSmC4FPS)]
+[ [Paper](https://arxiv.org/abs/1906.05478)]
 + **Data-driven Estimation of Sinusoid Frequencies.** <br/>
 Gautier Izacard, **Sreyas Mohan**, Carlos Fernandez-Granda <br/>
 *Proc. 33rd Conference on Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019*  <br/>
