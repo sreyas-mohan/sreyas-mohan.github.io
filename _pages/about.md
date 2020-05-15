@@ -22,11 +22,11 @@ Publications
 **Sreyas Mohan<sup>\*</sup>**, Zahra Kadkhodaie<sup>\*</sup>, Eero Simoncelli, Carlos Fernandez-Granda <br/>
 *Proc. International Conference on Learning Representations (ICLR), 2020* <br/>
 *Solving Inverse Problems with Deep Networks Workshop, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019* <br/>
-[ [Paper](https://arxiv.org/abs/1906.05478)] [ [Webiste](https://labforcomputationalvision.github.io/bias_free_denoising/) ] [ [Code](https://github.com/LabForComputationalVision/bias_free_denoising) ]
+[ [Paper](https://arxiv.org/abs/1906.05478) ] [ [Website](https://labforcomputationalvision.github.io/bias_free_denoising/) ] [ [Code](https://github.com/LabForComputationalVision/bias_free_denoising) ]
 + **Data-driven Estimation of Sinusoid Frequencies.** <br/>
 Gautier Izacard, **Sreyas Mohan**, Carlos Fernandez-Granda <br/>
 *Proc. 33rd Conference on Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019*  <br/>
-[ [Paper](https://papers.nips.cc/paper/8756-data-driven-estimation-of-sinusoid-frequencies) ] [ [Webiste](https://sreyas-mohan.github.io/DeepFreq/) ] [ [Code](https://github.com/sreyas-mohan/DeepFreq) ]
+[ [Paper](https://papers.nips.cc/paper/8756-data-driven-estimation-of-sinusoid-frequencies) ] [ [Website](https://sreyas-mohan.github.io/DeepFreq/) ] [ [Code](https://github.com/sreyas-mohan/DeepFreq) ]
 + **Automatic Knee Segmentation using Diffusion Weighted MRI.** <br/>
 Alejandra Duarte <sup>\*</sup>, Chaitra Hegde <sup>\*</sup>, Aakash Kaku <sup>\*</sup>, **Sreyas Mohan<sup>\*</sup>**, Jose G Raya <br/>
 *Medical Imaging Meets NeurIPS, Neural Information Processing Systems (NeurIPS), Vancouver (Canada) 2019 (Extended Abstract)* <br/>
