@@ -14,10 +14,13 @@ Previously, I obtained my B.Tech in Electrical Engineering from [Indian Institut
 
 Publications
 -----
++ **Deep Denoising For Scientific Discovery: A Case Study In Electron Microscopy.** <br/>
+**Sreyas Mohan**,  Ramon Manzorro, Joshua L. Vincent, Binh Tang, Dev Yashpal Sheth, Eero P. Simoncelli, David S. Matteson, Peter A. Crozier, Carlos Fernandez-Granda <br/>
+*Under Review* <br/>
+[ [Paper](https://arxiv.org/abs/2010.12970) ] [ [Website](https://sreyas-mohan.github.io/electron-microscopy-denoising/) ] [ [Code and Dataset](https://github.com/sreyas-mohan/electron-microscopy-denoising) ]
 + **Be Like Water: Robustness to Extraneous Variables Via Adaptive Feature Normalization.** <br/>
  Aakash Kaku<sup>\*</sup>, **Sreyas Mohan<sup>\*</sup>**, Avinash Parnandi, Heidi Schambra, Carlos Fernandez-Granda <br/>
-*Under Review* <br/>
-[ [Paper](https://arxiv.org/abs/2002.04019)]
+[[Paper](https://arxiv.org/abs/2002.04019)]
 + **Robust and Interpretable Blind Image Denoising via Bias-free Convolutional Neural Networks.** <br/>
 **Sreyas Mohan<sup>\*</sup>**, Zahra Kadkhodaie<sup>\*</sup>, Eero Simoncelli, Carlos Fernandez-Granda <br/>
 *Proc. International Conference on Learning Representations (ICLR), 2020* <br/>
