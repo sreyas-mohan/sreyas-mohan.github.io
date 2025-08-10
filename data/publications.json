@@ -1,0 +1,488 @@
+[
+  {
+    "title": "Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset",
+    "author_list": [
+      "Vasu Agrawal",
+      "Akinniyi Akinyemi",
+      "Kathryn Alvero",
+      "Morteza Behrooz",
+      "...",
+      "Sreyas Mohan",
+      "...",
+      "Michael Zollhoefer"
+    ],
+    "venue": "Preprint",
+    "year": 2025,
+    "attributes": {
+      "Paper": "https://ai.meta.com/research/publications/seamless-interaction-dyadic-audiovisual-motion-modeling-and-large-scale-dataset/",
+      "Blog Post": "https://ai.meta.com/research/seamless-interaction/",
+      "Dataset": "https://www.aidemos.meta.com/seamless_interaction_dataset",
+      "HuggingFace": "https://huggingface.co/datasets/facebook/seamless-interaction"
+    },
+    "selected": true
+  },
+  {
+    "title": "InteractAvatar: Modeling Hand-Face Interaction in Photorealistic Avatars with Deformable Gaussians",
+    "author_list": [
+      "Kefan Chen",
+      "Sreyas Mohan*",
+      "Justin Theiss*",
+      "Sergiu Oprea*",
+      "Srinath Sridhar",
+      "Aayush Prakash"
+    ],
+    "venue": "ICCV",
+    "year": 2025,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2505.05587",
+      "Project Page": "https://arthurchen0518.github.io/InteractAvatar"
+    },
+    "selected": true
+  },
+  {
+    "title": "Visualizing Nanoparticle Surface Dynamics and Instabilities Enabled by Deep Denoising",
+    "author_list": [
+      "Peter A Crozier",
+      "Matan Leibovich",
+      "Piyush Haluai",
+      "Mai Tan",
+      "Andrew M Thomas",
+      "Joshua Vincent",
+      "Sreyas Mohan",
+      "Adrià Marcos Morales",
+      "Shreyas A Kulkarni",
+      "David S. Matteson",
+      "Yifan Wang",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "Science",
+    "year": 2025,
+    "attributes": {
+      "Paper (Science)": "https://www.science.org/doi/10.1126/science.ads2688"
+    },
+    "selected": true
+  },
+  {
+    "title": "Learn, Denoise and Discover - A Guide to Deep Denoising with an Application to Electron Microscopy",
+    "author_list": [
+      "Sreyas Mohan*",
+      "Kangning Liu*",
+      "Peter A Crozier",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "IEEE Signal Processing Magazine",
+    "year": 2025,
+    "attributes": {
+      "Paper": "https://github.com/Kangningthu/DeepDenoisingGuide/blob/master/DeepDenoisingGuide.pdf",
+      "Code": "https://github.com/Kangningthu/DeepDenoisingGuide/tree/master",
+      "Project Page": "https://kangningthu.github.io/AI-powered-denoising/"
+    },
+    "selected": false
+  },
+  {
+    "title": "Steepest Descent Density Control for Compact 3D Gaussian Splatting",
+    "author_list": [
+      "Peihao Wang*",
+      "Yuehao Wang*",
+      "Dilin Wang",
+      "Sreyas Mohan",
+      "Zhiwen Fan",
+      "Lemeng Wu",
+      "Ruisi Cai",
+      "Yu-Ying Yeh",
+      "Zhangyang Wang",
+      "Qiang Liu",
+      "Rakesh Ranjan"
+    ],
+    "venue": "CVPR",
+    "year": 2025,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2505.05587",
+      "Code": "https://github.com/facebookresearch/SteepGS",
+      "Project Page": "https://vita-group.github.io/SteepGS/"
+    },
+    "selected": true
+  },
+  {
+    "title": "SteinDreamer: Variance Reduction for Text-to-3D Score Distillation via Stein Identity",
+    "author_list": [
+      "Peihao Wang",
+      "Zhiwen Fan",
+      "Dejia Xu",
+      "Dilin Wang",
+      "Sreyas Mohan",
+      "Forrest Iandola",
+      "Rakesh Ranjan",
+      "Yilei Li",
+      "Qiang Liu",
+      "Zhangyang Wang",
+      "Vikas Chandra"
+    ],
+    "venue": "AISTATS",
+    "year": 2025,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2401.00604",
+      "Code": "https://github.com/VITA-Group/SteinDreamer",
+      "Project Page": "https://vita-group.github.io/SteinDreamer/"
+    },
+    "selected": false
+  },
+  {
+    "title": "WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians",
+    "author_list": [
+      "Dmytro Kotovenko",
+      "Olga Grebenkova",
+      "Avinash Paliwal",
+      "Pingchuan Ma",
+      "Omid Poursaeed",
+      "Sreyas Mohan",
+      "Yuchen Fan",
+      "Yilei Li",
+      "Rakesh Ranjan",
+      "Björn Ommer"
+    ],
+    "venue": "ECCV",
+    "year": 2024,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2409.17917",
+      "Code": "https://github.com/facebookresearch/WaSt3D",
+      "Project Page": "https://compvis.github.io/wast3d/"
+    },
+    "selected": false
+  },
+  {
+    "title": "Taming Mode Collapse in Score Distillation for Text-to-3D Generation",
+    "author_list": [
+      "Peihao Wang",
+      "Dejia Xu",
+      "Zhiwen Fan",
+      "Dilin Wang",
+      "Sreyas Mohan",
+      "Forrest Iandola",
+      "Rakesh Ranjan",
+      "Yilei Li",
+      "Qiang Liu",
+      "Zhangyang Wang",
+      "Vikas Chandra"
+    ],
+    "venue": "CVPR",
+    "year": 2024,
+    "attributes": {
+      "Paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Taming_Mode_Collapse_in_Score_Distillation_for_Text-to-3D_Generation_CVPR_2024_paper.pdf",
+      "Code": "https://github.com/VITA-Group/3D-Mode-Collapse",
+      "Project Page": "https://vita-group.github.io/3D-Mode-Collapse/"
+    },
+    "selected": false
+  },
+  {
+    "title": "MMG-EGO4D: Multimodal Generalization in Egocentric Action Recognition",
+    "author_list": [
+      "Xinyu Gong*",
+      "Sreyas Mohan*",
+      "Naina Dhingra",
+      "Jean-Charles Bazin",
+      "Yilei Li",
+      "Zhangyang Wang",
+      "Rakesh Ranjan"
+    ],
+    "venue": "CVPR",
+    "year": 2023,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2305.07214"
+    },
+    "selected": false
+  },
+  {
+    "title": "Evaluating Unsupervised Denoising Requires Unsupervised Metrics",
+    "author_list": [
+      "Adrià Marcos Morales",
+      "Matan Leibovich",
+      "Sreyas Mohan",
+      "Joshua Vincent",
+      "Piyush Haluai",
+      "Mai Tan",
+      "Peter A Crozier",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "ICML",
+    "year": 2022,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2210.05553",
+      "Code": "https://github.com/adriamm98/umse/tree/main"
+    },
+    "selected": false
+  },
+  {
+    "title": "The Impact of Artificial Intelligence on in Situ Electron Microscopy",
+    "author_list": [
+      "Peter A Crozier",
+      "Adrià Marcos Morales",
+      "Matan Leibovich",
+      "Sreyas Mohan",
+      "Piyush Haluai",
+      "Mai Tan",
+      "Joshua Vincent",
+      "Advait Gilankar",
+      "Yifan Wang",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "Microscopy and Microanalysis",
+    "year": 2023,
+    "attributes": {
+      "Paper": "https://par.nsf.gov/servlets/purl/10489420"
+    },
+    "selected": false,
+    "workshop": true
+  },
+  {
+    "title": "Deep Probability Estimation",
+    "author_list": [
+      "Sheng Liu",
+      "Aakash Kaku",
+      "Weicheng Zhu",
+      "Matan Leibovich",
+      "Sreyas Mohan",
+      "Boyang Yu",
+      "Haoxiang Huang",
+      "Laure Zanna",
+      "Narges Razavian",
+      "Jonathan Niles-Weed",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "ICML",
+    "year": 2022,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2111.10734",
+      "Code": "https://github.com/jackzhu727/deep-probability-estimation",
+      "Project Page": "https://jackzhu727.github.io/deep-probability-estimation/",
+      "Video": "https://icml.cc/virtual/2022/spotlight/16300",
+      "Slides": "https://icml.cc/media/icml-2022/Slides/16300.pdf"
+    },
+    "selected": false
+  },
+  {
+    "title": "Deep Denoising for Scientific Discovery: A Case Study in Electron Microscopy",
+    "author_list": [
+      "Sreyas Mohan",
+      "Ramon Manzorro",
+      "Joshua Vincent",
+      "Binh Tang",
+      "Dev Yashpal Sheth",
+      "Eero P. Simoncelli",
+      "David S. Matteson",
+      "Peter A Crozier",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "IEEE Transactions on Computational Imaging",
+    "year": 2022,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2010.12970",
+      "Code": "https://github.com/sreyas-mohan/electron-microscopy-denoising",
+      "Project Page": "https://sreyas-mohan.github.io/electron-microscopy-denoising/"
+    },
+    "selected": false
+  },
+  {
+    "title": "Adaptive Denoising via GainTuning",
+    "author_list": [
+      "Sreyas Mohan",
+      "Joshua Vincent",
+      "Ramon Manzorro",
+      "Peter A Crozier",
+      "Carlos Fernandez-Granda",
+      "Eero P. Simoncelli"
+    ],
+    "venue": "NeurIPS",
+    "year": 2021,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2107.12815",
+      "Presentation": "https://slideslive.com/38967480/adaptive-denoising-via-gaintuning"
+    },
+    "selected": true
+  },
+  {
+    "title": "Unsupervised Deep Video Denoising",
+    "author_list": [
+      "Dev Yashpal Sheth*",
+      "Sreyas Mohan*",
+      "Joshua Vincent",
+      "Ramon Manzorro",
+      "Peter A Crozier",
+      "Mitesh M. Khapra",
+      "Eero P. Simoncelli",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "ICCV",
+    "year": 2021,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2011.15045",
+      "Code": "https://github.com/sreyas-mohan/UDVD",
+      "Project Page": "https://sreyas-mohan.github.io/udvd/"
+    },
+    "selected": true
+  },
+  {
+    "title": "Perturbation CheckLists for Evaluating NLG Evaluation Metrics",
+    "author_list": [
+      "Ananya B. Sai",
+      "Tanay Dixit",
+      "Dev Yashpal Sheth",
+      "Sreyas Mohan",
+      "Mitesh M. Khapra"
+    ],
+    "venue": "EMNLP",
+    "year": 2021,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2109.05771",
+      "Code": "https://github.com/iitmnlp/EvalEval",
+      "Project Page": "https://iitmnlp.github.io/EvalEval/"
+    },
+    "selected": false
+  },
+  {
+    "title": "Developing and Evaluating Deep Neural Network Based Denoising for Nanoparticle TEM Images with Ultra-Low Signal-to-Noise",
+    "author_list": [
+      "Joshua Vincent",
+      "Ramon Manzorro",
+      "Sreyas Mohan",
+      "Binh Tang",
+      "Dev Yashpal Sheth",
+      "Eero P. Simoncelli",
+      "David S. Matteson",
+      "Carlos Fernandez-Granda",
+      "Peter A Crozier"
+    ],
+    "venue": "Microscopy and Microanalysis",
+    "year": 2021,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/2101.07770"
+    },
+    "selected": false
+  },
+  {
+    "title": "Convolutional Neural Network as a Solution to Segment and Classify High Resolution TEM Images to Obtain 3D Information",
+    "author_list": [
+      "Matan Leibovich",
+      "Ramon Manzorro",
+      "Mai Tan",
+      "Sreyas Mohan",
+      "Adrià Marcos-Morales",
+      "Carlos Fernandez-Granda",
+      "Peter A Crozier"
+    ],
+    "venue": "Microscopy and Microanalysis",
+    "year": 2021,
+    "attributes": {
+      "Paper": "https://par.nsf.gov/servlets/purl/10380001"
+    },
+    "selected": false,
+    "workshop": true
+  },
+  {
+    "title": "A Deep Learning Approach to Retrieving 3D Structure Information from High Resolution Time-Resolved TEM Images",
+    "author_list": [
+      "Ramon Manzorro",
+      "Matan Leibovich",
+      "Joshua Vincent",
+      "Sreyas Mohan",
+      "David S. Matteson",
+      "Carlos Fernandez-Granda",
+      "Peter A Crozier"
+    ],
+    "venue": "Microscopy and Microanalysis",
+    "year": 2021,
+    "attributes": {
+      "Paper": "https://academic.oup.com/mam/article-abstract/27/S1/464/6888833"
+    },
+    "selected": false,
+    "workshop": true
+  },
+  {
+    "title": "Developing Deep Neural Network Based Denoising Techniques for Time-Resolved in Situ TEM of Catalyst Nanoparticles",
+    "author_list": [
+      "Joshua Vincent",
+      "Sreyas Mohan",
+      "Ramon Manzorro",
+      "Binh Tang",
+      "Dev Yashpal Sheth",
+      "Mitesh M. Khapra",
+      "David S. Matteson",
+      "Eero P. Simoncelli",
+      "Carlos Fernandez-Granda",
+      "Peter A Crozier"
+    ],
+    "venue": "Microscopy and Microanalysis",
+    "year": 2021,
+    "attributes": {
+      "Paper": "https://academic.oup.com/mam/article-abstract/27/S1/262/6888223?redirectedFrom=PDF"
+    },
+    "selected": false,
+    "workshop": true
+  },
+  {
+    "title": "Robust and Interpretable Blind Image Denoising via Bias-Free Convolutional Networks",
+    "author_list": [
+      "Sreyas Mohan",
+      "Zahra Kadkhodaie",
+      "Eero P. Simoncelli",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "ICLR",
+    "year": 2020,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/1906.05478",
+      "Code": "https://github.com/LabForComputationalVision/bias_free_denoising",
+      "Project Page": "https://labforcomputationalvision.github.io/bias_free_denoising/"
+    },
+    "selected": true
+  },
+  {
+    "title": "Denoising Large in Situ TEM Image Datasets - A Convolutional Neural Network Based Approach",
+    "author_list": [
+      "Joshua Vincent",
+      "Sreyas Mohan",
+      "Carlos Fernandez-Granda",
+      "Peter A Crozier"
+    ],
+    "venue": "Microscopy and Microanalysis",
+    "year": 2020,
+    "attributes": {
+      "Paper": "https://par.nsf.gov/servlets/purl/10189765"
+    },
+    "selected": false
+  },
+  {
+    "title": "Data Driven Estimation of Sinusoid Frequencies",
+    "author_list": [
+      "Gautier Izacard",
+      "Sreyas Mohan",
+      "Carlos Fernandez-Granda"
+    ],
+    "venue": "NeurIPS",
+    "year": 2019,
+    "attributes": {
+      "Paper": "https://papers.nips.cc/paper/8756-data-driven-estimation-of-sinusoid-frequencies.pdf",
+      "Code": "https://github.com/sreyas-mohan/DeepFreq",
+      "Project Page": "https://sreyas-mohan.github.io/DeepFreq/"
+    },
+    "selected": false
+  },
+  {
+    "title": "Automatic Knee Segmentation Using Diffusion Weighted MRI",
+    "author_list": [
+      "Alejandra Duarte*",
+      "Chaitra V. Hegde*",
+      "Aakash Kaku*",
+      "Sreyas Mohan*",
+      "José G. Raya"
+    ],
+    "venue": "Medical Imaging Meets NeurIPS Workshop",
+    "year": 2019,
+    "attributes": {
+      "Paper": "https://arxiv.org/abs/1912.01838",
+      "Code": "https://github.com/aakashrkaku/knee-cartilage-segmentation"
+    },
+    "selected": false,
+    "workshop": true
+  }
+]

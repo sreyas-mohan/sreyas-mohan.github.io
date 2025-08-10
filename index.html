@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Sreyas Mohan</title>
+  <meta name="author" content="Sreyas Mohan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+<body>
+  <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin:auto;">
+    <tr>
+      <td>
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:auto;">
+          <tr>
+            <td class="profile-text" style="padding:2.5%;width:63%;vertical-align:middle">
+  <p style="text-align:center">
+    <name>Sreyas Mohan</name>
+  </p>
+
+<div id="bio"></div>
+
+
+<p style="text-align:center; margin-top: 15px;">
+  <a href="mailto:sreyasmohan@meta.com">sreyasmohan@meta.com</a> &nbsp;/&nbsp;
+  <a href="https://www.linkedin.com/in/sreyas-mohan-b82a3594/">LinkedIn</a> &nbsp;/&nbsp;
+  <a href="https://scholar.google.com/citations?user=jaobZDsAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+  <a href="publications.html">Publications</a>
+</p>
+
+</td>
+
+            <td class="profile-photo" style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/photo.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/photo.jpg"></a>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:auto;">
+          <tr>
+            <td style="padding:20px;vertical-align:middle">
+              <heading>Selected Publications</heading>
+              <ul id="selected-publications"></ul>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:auto;">
+          <tr>
+            <td style="padding:20px;vertical-align:middle">
+              <heading>Patents</heading>
+              <ul id="patents"></ul>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+  <script>
+    (function() {
+      function normalizeName(name) {
+        return (name || '').trim();
+      }
+
+      function italicizeIfSelf(name) {
+        return normalizeName(name) === 'Sreyas Mohan' ? '<em>' + name + '</em>' : name;
+      }
+
+      function superscriptStar(name) {
+        if (!name) return name;
+        if (name.endsWith('*')) return name.slice(0, -1) + '<sup>*</sup>';
+        return name;
+      }
+
+      function buildAuthorsHtml(authors, collaboratorMap) {
+        return authors.map(function(author) {
+          if (author === '...') return '...';
+          var cleanName = normalizeName(author);
+          var baseName = cleanName.replace(/\*$/, '');
+          var displayName = italicizeIfSelf(baseName);
+          if (cleanName.endsWith('*')) displayName = displayName + '<sup>*</sup>';
+          var url = collaboratorMap[baseName];
+          if (url && baseName !== 'Sreyas Mohan') {
+            return '<a href="' + url + '">' + displayName + '</a>';
+          }
+          return displayName;
+        }).join(', ');
+      }
+
+      function createPublicationItem(pub, collaboratorMap) {
+        var li = document.createElement('li');
+        var titleHtml = '<strong>' + pub.title + '</strong>';
+        var authorsHtml = buildAuthorsHtml(pub.authors || [], collaboratorMap);
+        var venueParts = [];
+        if (pub.venue) venueParts.push(pub.venue);
+        if (pub.year) venueParts.push(pub.year);
+        var venueHtml = venueParts.length ? '<br/><em>' + venueParts.join(', ') + '</em>' : '';
+        var links = [];
+        var attrs = pub.attributes || {};
+        Object.keys(attrs).forEach(function(label){
+          var href = attrs[label];
+          if (href) links.push('[ <a href="' + href + '">' + label + '</a> ]');
+        });
+        var linksHtml = links.length ? '<br/>' + links.join(' ') : '';
+        li.innerHTML = titleHtml + ' <br/>' + authorsHtml + venueHtml + ' ' + linksHtml;
+        return li;
+      }
+
+      function renderSelectedPublications(publications, collaboratorMap) {
+        var container = document.getElementById('selected-publications');
+        if (!container) return;
+        var selected = publications.filter(function(p) { return !!p.selected; }).map(function(p){
+          // Adapt to new schema if present
+          if (p.author_list && !p.authors) p.authors = p.author_list;
+          return p;
+        });
+        selected.sort(function(a, b) { return (b.year || 0) - (a.year || 0); });
+        selected.forEach(function(pub) {
+          container.appendChild(createPublicationItem(pub, collaboratorMap));
+        });
+      }
+
+      function createPatentItem(patent, collaboratorMap) {
+        var li = document.createElement('li');
+        var titleHtml = '<strong><a href="' + patent.link + '">' + patent.title + '</a></strong>';
+        var inventorsHtml = (patent.inventors || []).map(function(inv){
+          var name = normalizeName(inv);
+          var displayName = name === 'Sreyas Mohan' ? '<em>' + name + '</em>' : name;
+          var url = collaboratorMap[name];
+          if (url && name !== 'Sreyas Mohan') return '<a href="' + url + '">' + displayName + '</a>';
+          return displayName;
+        }).join(', ');
+        var yearHtml = patent.year ? '<br/><em>' + patent.year + '</em>' : '';
+        li.innerHTML = titleHtml + '<br/>' + inventorsHtml + yearHtml;
+        return li;
+      }
+
+      function renderPatents(patents, collaboratorMap) {
+        var container = document.getElementById('patents');
+        if (!container) return;
+        var sorted = (patents || []).slice().sort(function(a,b){ return (b.year||0)-(a.year||0); });
+        sorted.forEach(function(p){ container.appendChild(createPatentItem(p, collaboratorMap)); });
+      }
+
+      Promise.all([
+        fetch('data/publications.json').then(function(r){ return r.json(); }),
+        fetch('data/collaborators.json').then(function(r){ return r.json(); }),
+        fetch('data/bio.md').then(function(r){ return r.text(); }),
+        fetch('data/patents.json').then(function(r){ return r.json(); })
+      ]).then(function(results) {
+        var publications = results[0] || [];
+        var collaborators = results[1] || {};
+        var bioMarkdown = results[2] || '';
+        var patents = results[3] || [];
+        var collaboratorMap = collaborators;
+        // Map author_list to authors and adapt to attributes
+        var pubsAdapted = publications.map(function(p){
+          if (p.author_list && !p.authors) p.authors = p.author_list;
+          return p;
+        });
+        renderSelectedPublications(pubsAdapted, collaboratorMap);
+        renderPatents(patents, collaboratorMap);
+        // Lightweight markdown conversion for links + paragraphs
+        try {
+          var html = bioMarkdown
+            .replace(/\r\n|\r|\n/g, '\n')
+            .split('\n\n')
+            .map(function(block){
+              var withLinks = block
+                .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>');
+              return '<p>' + withLinks + '</p>';
+            }).join('');
+          var bioDiv = document.getElementById('bio');
+          if (bioDiv) bioDiv.innerHTML = html;
+        } catch (e) { console.error('Failed to render bio', e); }
+      }).catch(function(err){ console.error('Failed to load publications', err); });
+    })();
+  </script>
+</body>
+</html>

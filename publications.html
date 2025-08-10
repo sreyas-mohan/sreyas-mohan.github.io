@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Publications - Sreyas Mohan</title>
+  <meta name="author" content="Sreyas Mohan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+<body>
+  <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin:auto;">
+    <tr>
+      <td>
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:auto;">
+          <tr>
+            <td class="profile-text" style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Sreyas Mohan</name>
+              </p>
+
+              <p style="text-align:center; margin-top: 15px;">
+                <a href="mailto:sreyasmohan@meta.com">sreyasmohan@meta.com</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/sreyas-mohan-b82a3594/">LinkedIn</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=jaobZDsAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="index.html">Home</a>
+              </p>
+            </td>
+            <td class="profile-photo" style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/photo.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/photo.jpg"></a>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:auto;">
+          <tr>
+            <td style="padding:20px;vertical-align:middle">
+              <heading>Publications</heading>
+              <div id="publications-container">
+                <ul id="regular-list" class="pub-list"></ul>
+                <p style="margin:12px 0 4px 0;"><em>Workshops/Extended Abstracts:</em></p>
+                <ul id="workshop-list" class="pub-list"></ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <script>
+    (function() {
+      function normalizeName(name) {
+        return (name || '').trim();
+      }
+
+      function italicizeIfSelf(name) {
+        return normalizeName(name) === 'Sreyas Mohan' ? '<em>' + name + '</em>' : name;
+      }
+
+      function superscriptStar(name) {
+        if (!name) return name;
+        if (name.endsWith('*')) return name.slice(0, -1) + '<sup>*</sup>';
+        return name;
+      }
+
+      function buildAuthorsHtml(authorList, collaboratorMap, condense) {
+        var authors = authorList || [];
+        var containsEllipsis = authors.indexOf('...') !== -1;
+
+        function renderName(raw) {
+          if (raw === '...') return '...';
+          var clean = normalizeName(raw);
+          var base = clean.replace(/\*$/, '');
+          var display = italicizeIfSelf(base);
+          if (clean.endsWith('*')) display += '<sup>*</sup>';
+          var url = collaboratorMap[base];
+          if (url && base !== 'Sreyas Mohan') return '<a href="' + url + '">' + display + '</a>';
+          return display;
+        }
+
+        if (containsEllipsis) {
+          return authors.map(renderName).join(', ');
+        }
+
+        // Condense only when requested and list is long
+        var THRESHOLD = 9; // condense if more than 8 authors
+        if (!condense || authors.length <= THRESHOLD) {
+          return authors.map(renderName).join(', ');
+        }
+
+        var n = authors.length;
+        var baseNames = authors.map(function(a){ return a === '...' ? '...' : normalizeName(a).replace(/\*$/, ''); });
+        var selfIndex = baseNames.indexOf('Sreyas Mohan');
+        var include = new Set();
+        include.add(0);
+        if (n >= 2) include.add(n - 2);
+        include.add(n - 1);
+        if (selfIndex !== -1) include.add(selfIndex);
+        var kept = Array.from(include).filter(function(i){ return i >= 0 && i < n; }).sort(function(a,b){ return a-b; });
+        var out = [];
+        var prev = -1;
+        kept.forEach(function(idx){
+          if (prev !== -1 && idx > prev + 1) out.push('...');
+          out.push(authors[idx]);
+          prev = idx;
+        });
+        return out.map(renderName).join(', ');
+      }
+
+      function createPublicationItem(pub, collaboratorMap, indexNumber, condenseAuthors) {
+        var li = document.createElement('li');
+        var titleHtml = '<strong>' + pub.title + '</strong>';
+        var authorsHtml = buildAuthorsHtml(pub.author_list || [], collaboratorMap, condenseAuthors);
+        var venueParts = [];
+        if (pub.venue) venueParts.push(pub.venue);
+        if (pub.year) venueParts.push(pub.year);
+        var venueHtml = venueParts.length ? '<br/><em>' + venueParts.join(', ') + '</em>' : '';
+        var links = [];
+        var attrs = pub.attributes || {};
+        Object.keys(attrs).forEach(function(label){
+          var href = attrs[label];
+          if (href) links.push('[ <a href="' + href + '">' + label + '</a> ]');
+        });
+        var linksHtml = links.length ? '<br/>' + links.join(' ') : '';
+        li.innerHTML = '<span class="pub-num">[' + indexNumber + ']</span>' +
+          '<div class="pub-content">' +
+          titleHtml + ' <br/>' + authorsHtml + venueHtml + ' ' + linksHtml +
+          '</div>';
+        return li;
+      }
+
+      function renderNumbered(publications, collaboratorMap) {
+        var workshopList = document.getElementById('workshop-list');
+        var regularList = document.getElementById('regular-list');
+        if (!workshopList || !regularList) return;
+
+        var pubs = (publications || []).slice();
+        var workshops = pubs.filter(function(p){ return !!p.workshop; }).sort(function(a,b){ return (b.year||0)-(a.year||0); });
+        var regulars = pubs.filter(function(p){ return !p.workshop; }).sort(function(a,b){ return (b.year||0)-(a.year||0); });
+
+        var total = regulars.length + workshops.length;
+        var counter = total;
+        // Regular first (reverse chronological), numbering desc so bottom-most ends at [1]
+        regulars.forEach(function(pub){
+          var li = createPublicationItem(pub, collaboratorMap, counter--, true);
+          regularList.appendChild(li);
+        });
+        // Then workshops (reverse chronological), continue numbering down to 1
+        workshops.forEach(function(pub){
+          var li = createPublicationItem(pub, collaboratorMap, counter--, true);
+          workshopList.appendChild(li);
+        });
+      }
+
+      Promise.all([
+        fetch('data/publications.json').then(function(r){ return r.json(); }),
+        fetch('data/collaborators.json').then(function(r){ return r.json(); })
+      ]).then(function(results) {
+        var publications = results[0] || [];
+        var collaboratorMap = results[1] || {};
+        renderNumbered(publications, collaboratorMap);
+      }).catch(function(err){ console.error('Failed to load publications', err); });
+    })();
+  </script>
+</body>
+</html>
+
+

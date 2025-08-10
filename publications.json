@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Taming Mode Collapse in Score Distillation for Text-to-3D Generation",
+    "authors": ["Peihao Wang","Dejia Xu","Zhiwen Fan","Dilin Wang","Sreyas Mohan","Forrest N. Iandola","Rakesh Ranjan","Yilei Li","Qiang Liu","Zhangyang Wang","Vikas Chandra"],
+    "venue": "CVPR 2024",
+    "year": 2024,
+    "pdf_link": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Taming_Mode_Collapse_in_Score_Distillation_for_Text-to-3D_Generation_CVPR_2024_paper.pdf",
+    "code_link": "https://vita-group.github.io/3D-Mode-Collapse/",
+    "selected": false
+  },
+  {
+    "title": "WAST-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians",
+    "authors": ["Dmitriy Kotovenko","Olga Grebenkova","Nikolaos Sarafianos","Abhishek Paliwal","Pushmeet Kohli","Changil Kim","Srinath Vellalacheruvu","Sudheendra Vijayanarasimhan","Subhransu Maji","Shenghua Gao","Alexei A. Efros"],
+    "venue": "ECCV 2024",
+    "year": 2024,
+    "pdf_link": "https://arxiv.org/abs/2310.14652",
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "MMG-EGO4D: Multimodal Generalization in Egocentric Action Recognition",
+    "authors": ["Xuan Gong","Sreyas Mohan","Nikhil Dhingra","John C. Bazin","Yuexian Li","Zhongwen Wang","Rishabh Ranjan"],
+    "venue": "CVPR 2023",
+    "year": 2023,
+    "pdf_link": "https://arxiv.org/abs/2302.13964",
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "The Impact of Artificial Intelligence on In Situ Electron Microscopy",
+    "authors": ["Peter A. Crozier","Adrian M. Morales","Matan Leibovich","Sreyas Mohan","Pal Haluai","Mai Tan","Amit Kumar Kabra","David S. Matteson","Weicheng Zhu"],
+    "venue": "Microscopy and Microanalysis (Supplement), 2023",
+    "year": 2023,
+    "pdf_link": null,
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "SteinDreamer: Variance Reduction for Text-to-3D Score Distillation via Stein Identity",
+    "authors": ["Peng Wang","Zifeng Fan","Dong Xu","Dilin Wang","Sreyas Mohan","Forrest N. Iandola","Rakesh Ranjan","Yilei Li","Quanzeng Wang"],
+    "venue": "arXiv preprint 2401.00604",
+    "year": 2023,
+    "pdf_link": "https://arxiv.org/abs/2401.00604",
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "Evaluating Unsupervised Denoising Requires Unsupervised Metrics",
+    "authors": ["Andres Marcos-Morales","Matan Leibovich","Sreyas Mohan","Joshua L. Vincent","Pal Haluai","Mai Tan","Yushuang Li"],
+    "venue": "arXiv preprint 2210.05553",
+    "year": 2022,
+    "pdf_link": "https://arxiv.org/abs/2210.05553",
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "Deep Denoising for Scientific Discovery: A Case Study in Electron Microscopy",
+    "authors": ["Sreyas Mohan","Ramon Manzorro","Joshua L. Vincent","Binh Tang","Dev Yashpal Sheth","Eero P. Simoncelli","David S. Matteson","Peter A. Crozier","Carlos Fernandez-Granda"],
+    "venue": "IEEE Transactions on Computational Imaging 8, 585–597 (2022)",
+    "year": 2022,
+    "pdf_link": "https://arxiv.org/abs/2010.12970",
+    "code_link": "https://sreyas-mohan.github.io/electron-microscopy-denoising/",
+    "selected": true
+  },
+  {
+    "title": "Unsupervised Deep Video Denoising",
+    "authors": ["Dev Yashpal Sheth","Sreyas Mohan","Joshua L. Vincent","Ramon Manzorro","Peter A. Crozier","Mitesh M. Khapra","Eero P. Simoncelli","Carlos Fernandez-Granda"],
+    "venue": "ICCV 2021",
+    "year": 2021,
+    "pdf_link": "https://arxiv.org/abs/2011.15045",
+    "code_link": "https://github.com/sreyas-mohan/UDVD",
+    "selected": true
+  },
+  {
+    "title": "Adaptive Denoising via Gaintuning",
+    "authors": ["Sreyas Mohan","Joshua L. Vincent","Ramon Manzorro","Peter A. Crozier","Carlos Fernandez-Granda","Forrest N. Iandola","Zhiwei Deng"],
+    "venue": "NeurIPS 2021",
+    "year": 2021,
+    "pdf_link": "https://arxiv.org/abs/2102.06545",
+    "code_link": null,
+    "selected": true
+  },
+  {
+    "title": "Deep Probability Estimation",
+    "authors": ["Siyuan Liu","Aakash Kaku","Weicheng Zhu","Matan Leibovich","Sreyas Mohan","Bolin Yu","Haoyang Huang","Luca Zanna","Yanjing Qiao","Jeremy L. Martin","Rahul Nair"],
+    "venue": "arXiv preprint 2111.10734",
+    "year": 2021,
+    "pdf_link": "https://arxiv.org/abs/2111.10734",
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "Blind Nonnegative Source Separation using Biological Neural Networks",
+    "authors": ["Cengiz Pehlevan","Sreyas Mohan","Dmitri B. Chklovskii"],
+    "venue": "Neural Computation 29(11), 2925-2954 (2017)",
+    "year": 2017,
+    "pdf_link": null,
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "Data-driven Estimation of Sinusoid Frequencies",
+    "authors": ["Gautier Izacard","Sreyas Mohan","Carlos Fernandez-Granda"],
+    "venue": "NeurIPS 2019",
+    "year": 2019,
+    "pdf_link": "https://papers.nips.cc/paper/8756-data-driven-estimation-of-sinusoid-frequencies.pdf",
+    "code_link": "https://github.com/sreyas-mohan/DeepFreq",
+    "selected": true
+  },
+  {
+    "title": "Robust and Interpretable Blind Image Denoising via Bias-free Convolutional Neural Networks",
+    "authors": ["Sreyas Mohan","Zahra Kadkhodaie","Eero P. Simoncelli","Carlos Fernandez-Granda"],
+    "venue": "ICLR 2020",
+    "year": 2020,
+    "pdf_link": "https://arxiv.org/abs/1906.05478",
+    "code_link": null,
+    "selected": true
+  },
+  {
+    "title": "Knee Cartilage Segmentation Using Diffusion-Weighted MRI",
+    "authors": ["A. Duarte","C.V. Hegde","Aakash Kaku","Sreyas Mohan","Jose G. Raya"],
+    "venue": "arXiv preprint 1912.01838",
+    "year": 2019,
+    "pdf_link": "https://arxiv.org/abs/1912.01838",
+    "code_link": null,
+    "selected": false
+  },
+  {
+    "title": "Data-driven Coded Aperture Design for Depth Recovery",
+    "authors": ["Prasan Shedligeri","Sreyas Mohan","Kaushik Mitra"],
+    "venue": "ICIP 2017",
+    "year": 2017,
+    "pdf_link": "https://arxiv.org/abs/1705.10021",
+    "code_link": null,
+    "selected": true
+  },
+  {
+    "title": "Perturbation CheckLists for Evaluating NLG Evaluation Metrics",
+    "authors": ["Ananya B. Sai","Tanay Dixit","Dev Yashpal Sheth","Sreyas Mohan","Mitesh M. Khapra"],
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "pdf_link": "https://arxiv.org/abs/2109.05771",
+    "code_link": "https://github.com/iitmnlp/EvalEval",
+    "selected": true
+  }
+]
